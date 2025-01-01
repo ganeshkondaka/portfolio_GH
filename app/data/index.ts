@@ -20,7 +20,7 @@ export const project_list: projects_d[] = [
         href: 'https://gyan-card.vercel.app/',
         technologies: ['Nextjs', 'TypeScript', 'Prisma', 'TailwindCSS', 'cloudinary'],
         description: 'A web application for sharing and accessing bite-sized knowledge cards on various topics, designed to improve knowledge retention.',
-        logo:'./mould.jpg'
+        logo:'/mould.jpg'
         
     },
     {
@@ -28,7 +28,7 @@ export const project_list: projects_d[] = [
         href: 'https://mern-chatapp-frontend-psi.vercel.app/',
         technologies: ['React','Express.js', 'MongoDB',  'Node.js', 'Socket,io'],
         description: 'A real-time chat application with WebSocket support for instant messaging and MongoDB for storing messages and user data.',
-        logo:'./shivaji20.jpeg'
+        logo:'/shivaji20.jpeg'
         
     },
     {
@@ -36,7 +36,7 @@ export const project_list: projects_d[] = [
         href: 'https://xblog-amber.vercel.app/',
         technologies: ['React', 'TypeScript', 'Prisma','Postgresql', 'Hono', 'Cloudflare','TailwindCSS'],
         description: 'A blogging platform inspired by Medium, where users can create, edit, and publish blogs using a seamless user interface.',
-        logo:'./blogman_mini.jpeg'
+        logo:'/blogman_mini.jpeg'
         
     },
     {
@@ -44,7 +44,7 @@ export const project_list: projects_d[] = [
         href: 'https://gyan-card.vercel.app/',// need to change after deployment
         technologies: ['Nextjs', 'TypeScript', 'TailwindCSS', 'react'],
         description: 'A personal Portfio website made with the Github dashboad theme, it will show case my project and skills .',
-        logo:'./copilot.png'
+        logo:'/copilot.png'
         
     },
     {
@@ -52,14 +52,14 @@ export const project_list: projects_d[] = [
         href: 'https://socnet-frontend-one.vercel.app/',
         technologies: ['React','Express.js', 'MongoDB',  'Node.js'],
         description: 'A web application for sharing and all social media details in one single card format.',
-        logo:'./socnet.png'
+        logo:'/socnet.png'
     },
     {
         name: 'Portfolio website',
         href: 'https://tsportfolio-repo.vercel.app/',
         technologies: ['Nextjs', 'TypeScript', 'Aeternity UI', 'React', 'TailwindCSS'],
         description: 'A personal portfolio website showcasing skills, projects, and contact information with a professional and responsive design.',
-        logo:'./pxldp4.jpeg'
+        logo:'/pxldp4.jpeg'
 
     },
     {
@@ -67,7 +67,7 @@ export const project_list: projects_d[] = [
         href: 'https://2bxyuirgwqswmwppdwwgmxtrafficwebapp.streamlit.app/',
         technologies: ['Streamlit', 'Python', 'Machine Learning', 'OpenCV'],
         description: 'An AI-based web app that identifies and recognizes traffic signs using machine learning models and computer vision techniques.',
-        logo:'./traffic.png'
+        logo:'/traffic.png'
 
     },
     {
@@ -75,7 +75,7 @@ export const project_list: projects_d[] = [
         href: 'https://spammailpredictionwebapp-lck76iojgroa7aq4xwimnispamprediction.streamlit.app/',
         technologies: ['Streamlit', 'Python', 'Scikit-learn', 'NLP','Tensorflow'],
         description: 'A machine learning web app that predicts whether an email is spam or not using natural language processing and Scikit-learn models.',
-        logo:'./logo.jpg'
+        logo:'/logo.jpg'
 
     }
 ];

@@ -9,14 +9,14 @@ export default function Right_second() {
   return (
     <div className='max-w-screen-lg mx-auto w-auto flex flex-col '>
       <div className='relative h-52 w-auto flex flex-col justify-center items-center border border-slate-600 rounded '>
-        <Image src="./headbg.png" alt="bg" className='absolute w-[380px] h-[203px]' />
-        <Image src="./head.png" alt="bg" className='absolute w-[300px]' />
+        <Image src="/headbg.png" alt="bg" width={380} height={203} className='absolute' />
+        <Image src="/head.png" alt="bg" width={300} height={300} className='absolute ' />
         <div className='absolute top-0 left-0 p-4 w-full '>
           <div className='text-xl font-bold flex items-center '><TbBrandGithubCopilot className='mr-1' /><p>Ganesh</p></div>
           <p className='font-bold mt-2'>My Portfolio website</p>
           <p className='text-zinc-300 w-2/4 text-[11px] mb-4'>I am a web developer skilled in MERN stack, currently seeking opportunities to contribute to innovative projects. </p>
           <div className='flex justify-center'>
-            <Link href="/" className='text-black rounded-lg bg-white  text-md w-full mx-1 py-1 text-center'>Connect</Link></div>
+            <Link href="/logo.jpg" className='text-black rounded-lg bg-white  text-md w-full mx-1 py-1 text-center'>Connect</Link></div>
         </div>
       </div>
 
