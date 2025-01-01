@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image';
 import React, { useState } from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { FiMenu } from 'react-icons/fi';
@@ -42,7 +43,7 @@ export default function Side_navbars() {
                         <div className='border border-zinc-700 inline-flex items-center p-1 text-[12px] text-gray-400 mx-2 rounded-lg'><GoGitPullRequest className='text-lg'/></div>
                         <div className='border border-zinc-700 inline-flex items-center p-1 text-[12px] text-gray-400 mx-2 rounded-lg'><VscInbox className='text-lg'/></div>
                     </div>
-                    <img
+                    <Image
                         src="./pxldp.jpeg"
                         alt="Navbar Image"
                         className="h-8 w-8 rounded-full"

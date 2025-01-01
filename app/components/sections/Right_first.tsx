@@ -1,4 +1,5 @@
 import { project_list } from '@/app/data'
+import Image from 'next/image';
 import React from 'react'
 import { FaBug, FaCode, FaLocationArrow } from 'react-icons/fa'
 import { FaArrowTrendUp } from 'react-icons/fa6';
@@ -43,7 +44,7 @@ export default function Right_first() {
                         <div key={index} className='flex flex-col mb-6 bg-[#0D1117] p-4 rounded border border-slate-600 '>
                             <div className='flex'>
                                 <div className='relative rounded-full flex mr-2 '>
-                                    <img src={project.logo} width={45} height={45} alt="favicon" className='rounded-full ' />
+                                    <Image src={project.logo} width={45} height={45} alt="favicon" className='rounded-full ' />
                                     <MdStars className='absolute text-yellow-400 bg-black rounded-full  bottom-0 right-0' />
                                 </div>
                                 <div className='flex flex-col'>

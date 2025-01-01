@@ -9,7 +9,7 @@ export default function Left_bottom() {
             <p className='font-bold mb-4'>My Skills</p>
             {
                 skills_list.map((skill, index) => (
-                    <div className='flex mb-4'>
+                    <div key={index} className='flex mb-4'>
                         {
                             skill.name === 'Version-control'
                                 ? <GoGitPullRequest className='text-green-600 text-xl ' />

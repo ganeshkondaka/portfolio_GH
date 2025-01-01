@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Left_top from "./components/sections/Left_top";
 import Left_bottom from "./components/sections/Left_bottom";
 import Right_first from "./components/sections/Right_first";

@@ -1,3 +1,5 @@
+import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import { FaGithub, FaRegCheckCircle, FaSuitcase } from 'react-icons/fa'
 import { FaCodeMerge } from 'react-icons/fa6'
@@ -7,14 +9,14 @@ export default function Right_second() {
   return (
     <div className='max-w-screen-lg mx-auto w-auto flex flex-col '>
       <div className='relative h-52 w-auto flex flex-col justify-center items-center border border-slate-600 rounded '>
-        <img src="./headbg.png" alt="bg" className='absolute w-[380px] h-[203px]' />
-        <img src="./head.png" alt="bg" className='absolute w-[300px]' />
+        <Image src="./headbg.png" alt="bg" className='absolute w-[380px] h-[203px]' />
+        <Image src="./head.png" alt="bg" className='absolute w-[300px]' />
         <div className='absolute top-0 left-0 p-4 w-full '>
           <div className='text-xl font-bold flex items-center '><TbBrandGithubCopilot className='mr-1' /><p>Ganesh</p></div>
           <p className='font-bold mt-2'>My Portfolio website</p>
-          <p className='text-zinc-300 w-2/4 text-[11px] mb-4'>"I am a web developer skilled in MERN stack, currently seeking opportunities to contribute to innovative projects. </p>
+          <p className='text-zinc-300 w-2/4 text-[11px] mb-4'>I am a web developer skilled in MERN stack, currently seeking opportunities to contribute to innovative projects. </p>
           <div className='flex justify-center'>
-            <a href="/" className='text-black rounded-lg bg-white  text-md w-full mx-1 py-1 text-center'>Connect</a></div>
+            <Link href="/" className='text-black rounded-lg bg-white  text-md w-full mx-1 py-1 text-center'>Connect</Link></div>
         </div>
       </div>
 
@@ -36,13 +38,13 @@ export default function Right_second() {
         <div className='flex items-center px-4 gap-3 mt-2'>
           <FaCodeMerge className='text-purple-800 text-xl ' />
           <div className='flex flex-col text-zinc-400 text-sm hover:underline'>
-            <a href="https://github.com/arihantcodes/spectrum-ui/pull/54">added a custom cursor component</a>
+            <Link href="https://github.com/arihantcodes/spectrum-ui/pull/54">added a custom cursor component</Link>
           </div>
         </div>
         <div className='flex items-center px-4 gap-3 mt-4'>
           <FaRegCheckCircle  className='text-purple-800 text-xl ' />
           <div className='flex flex-col text-zinc-400 text-sm hover:underline'>
-            <a href="https://github.com/arihantcodes/spectrum-ui/issues/38#event-15721056448">solved the cards overlapping</a>
+            <Link href="https://github.com/arihantcodes/spectrum-ui/issues/38#event-15721056448">solved the cards overlapping</Link>
           </div>
         </div>
       </div>
