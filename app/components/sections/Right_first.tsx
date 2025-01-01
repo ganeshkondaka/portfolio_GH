@@ -2,6 +2,7 @@ import { project_list } from '@/app/data'
 import React from 'react'
 import { FaLocationArrow } from 'react-icons/fa'
 import { LuSquareArrowUpRight } from 'react-icons/lu'
+import { MdStars } from 'react-icons/md';
 import { RiStarLine } from 'react-icons/ri';
 
 const languageColors : { [key: string]: string } = {
@@ -25,26 +26,26 @@ export default function Right_first() {
     return (
 
         <div className='flex flex-col'>
-            <p className='border border-zinc-800 p-2 rounded-lg '>Projects</p>
-            <div className='flex justify-between'>
-                <p>Home</p>
-                <button type="button" className=" bg-zinc-700 p-2 border">See all</button>
+            <p className='border border-zinc-800 p-2 rounded-lg px-5 bg-[#0D1117] '>Projects</p>
+            <div className='flex justify-between items-center px-5 py-2'>
+                <p className='font-bold text-lg'>Home</p>
+                <button type="button" className="rounded bg-zinc-800 px-2 p-1 border border-slate-700">See all</button>
             </div>
             <div>
                 {
                     project_list.map((project, index) => (
-                        <div key={index} className='flex flex-col mb-6'>
+                        <div key={index} className='flex flex-col mb-6 bg-[#0D1117] p-4 rounded border border-slate-600 '>
                             <div className='flex'>
-                                <div className='bg-yellow-400 rounded-full'>
-                                    <img src="nn" alt="favicon" />
-                                    <img src="lkn" alt="star-icon" />
+                                <div className='relative rounded-full flex mr-2 '>
+                                    <img src={project.logo} width={45} height={45} alt="favicon" className='rounded-full ' />
+                                    <MdStars className='absolute text-yellow-400 bg-black rounded-full  bottom-0 right-0' />
                                 </div>
                                 <div className='flex flex-col'>
                                     <div className='text-sm text-zinc-500'><a href={project.href} className='text-white text-sm font-bold hover:text-blue-400 hover:underline'>{project.name}</a> created by ganesh</div>
                                     <div className='text-[12px] text-zinc-500'>{Math.floor(Math.random() * 24) + 1} hours ago</div>
                                 </div>
                             </div>
-                            <div className='text-sm flex justify-between mt-2'>
+                            <div className='text-sm flex justify-between mt-2 bg-[#151B23] p-6 rounded-lg'>
 
                                 <div className='flex flex-col'>
                                     <div className='flex'>
@@ -57,7 +58,7 @@ export default function Right_first() {
                                             project.technologies.map((tech, index) => (
                                                 <div key={index} className='flex items-center mr-2'>
                                                     <span className={`w-3 h-3 rounded-full mr-1`} style={{ backgroundColor: languageColors[tech.toLowerCase()] || 'white' }}></span>
-                                                    <span className='text-sm text-white'>{tech}</span>
+                                                    <span className='text-[12px] text-zinc-400'>{tech}</span>
                                                 </div>
                                             ))
                                         }

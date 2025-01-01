@@ -6,9 +6,10 @@ import Right_second from "./components/sections/Right_second";
 
 export default function Home() {
   return (
-    <div className="grid grid-cols-3 min-h-screen w-screen pt-16">
-      <div className="p-4 max-w-96 border-r border-zinc-700 h-screen sticky top-0 overflow-hidden">
-        <div>
+    <div className="flex min-h-screen w-screen pt-16 ">
+      {/* Left Column */}
+      <div className="flex flex-col w-[390px] border-r border-zinc-700 h-screen sticky top-0 px-6 py-12 bg-[#0D1117]">
+        <div className="mb-16">
           <Left_top />
         </div>
         <div>
@@ -16,14 +17,15 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="col-span-2  overflow-y-auto">
-        <div className="grid grid-cols-2 gap-4 p-4">
-          <div>
-            <Right_first />
-          </div>
-          <div>
-            <Right_second />
-          </div>
+      <div className="p-10 w-full flex">
+        {/* Middle Column */}
+        <div className="flex-1 w-4/6 overflow-y-auto pr-6 ">
+          <Right_first />
+        </div>
+
+        {/* Right Column */}
+        <div className="w-2/6 p-2 sticky">
+          <Right_second />
         </div>
       </div>
     </div>

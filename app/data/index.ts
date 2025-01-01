@@ -7,6 +7,7 @@ export interface projects_d {
     href: string;
     technologies: string[];
     description: string;
+    logo:string
 }
 export interface skills_d {
     name: string;
@@ -18,49 +19,62 @@ export const project_list: projects_d[] = [
         name: 'Socnet',
         href: 'https://socnet-frontend-one.vercel.app/',
         technologies: ['React','Express.js', 'MongoDB',  'Node.js'],
-        description: 'A web application for sharing and all social media details in one single card format.'
+        description: 'A web application for sharing and all social media details in one single card format.',
+        logo:'./socnet.png'
     },
     {
         name: 'Chat app',
         href: 'https://mern-chatapp-frontend-psi.vercel.app/',
         technologies: ['React','Express.js', 'MongoDB',  'Node.js', 'Socket,io'],
-        description: 'A real-time chat application with WebSocket support for instant messaging and MongoDB for storing messages and user data.'
+        description: 'A real-time chat application with WebSocket support for instant messaging and MongoDB for storing messages and user data.',
+        logo:'./shivaji20.jpeg'
+
     },
     {
         name: 'XBlog app',
         href: 'https://xblog-amber.vercel.app/',
         technologies: ['React', 'TypeScript', 'Prisma','Postgresql', 'Hono', 'Cloudflare','TailwindCSS'],
-        description: 'A blogging platform inspired by Medium, where users can create, edit, and publish blogs using a seamless user interface.'
+        description: 'A blogging platform inspired by Medium, where users can create, edit, and publish blogs using a seamless user interface.',
+        logo:'./blogman_mini.jpeg'
+
     },
     {
         name: 'Gyan card',
         href: 'https://gyan-card.vercel.app/',
         technologies: ['Nextjs', 'TypeScript', 'Prisma', 'TailwindCSS', 'cloudinary'],
-        description: 'A web application for sharing and accessing bite-sized knowledge cards on various topics, designed to improve knowledge retention.'
+        description: 'A web application for sharing and accessing bite-sized knowledge cards on various topics, designed to improve knowledge retention.',
+        logo:'./mould.jpg'
+
     },
     {
         name: 'Portfolio website',
         href: 'https://tsportfolio-repo.vercel.app/',
         technologies: ['Nextjs', 'TypeScript', 'Aeternity UI', 'React', 'TailwindCSS'],
-        description: 'A personal portfolio website showcasing skills, projects, and contact information with a professional and responsive design.'
+        description: 'A personal portfolio website showcasing skills, projects, and contact information with a professional and responsive design.',
+        logo:'./pxldp4.jpeg'
+
     },
     {
         name: 'Traffic sign board',
         href: 'https://2bxyuirgwqswmwppdwwgmxtrafficwebapp.streamlit.app/',
         technologies: ['Streamlit', 'Python', 'Machine Learning', 'OpenCV'],
-        description: 'An AI-based web app that identifies and recognizes traffic signs using machine learning models and computer vision techniques.'
+        description: 'An AI-based web app that identifies and recognizes traffic signs using machine learning models and computer vision techniques.',
+        logo:'./traffic.png'
+
     },
     {
         name: 'Spam mail prediction system',
         href: 'https://spammailpredictionwebapp-lck76iojgroa7aq4xwimnispamprediction.streamlit.app/',
         technologies: ['Streamlit', 'Python', 'Scikit-learn', 'NLP','Tensorflow'],
-        description: 'A machine learning web app that predicts whether an email is spam or not using natural language processing and Scikit-learn models.'
+        description: 'A machine learning web app that predicts whether an email is spam or not using natural language processing and Scikit-learn models.',
+        logo:'./logo.jpg'
+
     }
 ];
 
 export const skills_list:skills_d[]=[
     {
-        name:'Web-development',
+        name:'Webdev',
         list:["Nextjs","MERN","Hono","TailwindCSS","framer_motion"]
     },
     {
