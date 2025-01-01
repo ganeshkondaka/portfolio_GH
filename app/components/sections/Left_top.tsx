@@ -43,7 +43,7 @@ export default function Left_top() {
                         {renderIcon(social.name)}
                         {/* <p>{social.name}</p>/*/}
                         <p>ganeshkondaka</p>/                            
-                        <a href={social.href} className='text-purple-400'>{social.name}</a>                           
+                        <a href={social.href} className='text-purple-200'>{social.name}</a>                           
                     </div>
                 })
             }

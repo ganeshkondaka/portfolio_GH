@@ -1,7 +1,7 @@
 import { project_list } from '@/app/data'
 import React from 'react'
-import { FaLocationArrow } from 'react-icons/fa'
-import { LuSquareArrowUpRight } from 'react-icons/lu'
+import { FaBug, FaCode, FaLocationArrow } from 'react-icons/fa'
+import { FaArrowTrendUp } from 'react-icons/fa6';
 import { MdStars } from 'react-icons/md';
 import { RiStarLine } from 'react-icons/ri';
 
@@ -10,15 +10,16 @@ const languageColors : { [key: string]: string } = {
     "javascript": "#fad74d",
     "tailwindcss": "#b24dfa",
     "react": "#3bc4ff",
-    "mongodb": "#06a123",
-    "express.js": "#ff3b3b",
+    "mongodb": "#6bbf6f",
+    "express.js": "#c4316c",
     "nextjs": "cyan",
     "python": "#fad74d",
     "prisma": "#fad74d",
-    "node.js": "#026324",
+    "node.js": "#04800a",
     "hono": "orange",
     "streamlit": "#ff3b3b",
-
+    "nlp": "#ad3199",
+    "tensorflow": "#869934",
 };
 
 export default function Right_first() {
@@ -26,10 +27,15 @@ export default function Right_first() {
     return (
 
         <div className='flex flex-col'>
-            <p className='border border-zinc-800 p-2 rounded-lg px-5 bg-[#0D1117] '>Projects</p>
+            <p className='border border-slate-700 p-2 rounded-lg px-5 text-zinc-400 bg-[#0D1117] '>Projects</p>
+            <div className='flex flex-row py-2 pt-4 justify-around '>
+                <p className='p-2 pr-4 border border-slate-700 rounded-full'><FaCode className='inline mx-2 text-zinc-500'/> A Portfolio website</p>
+                <p className='p-2 pr-4 border border-slate-700 rounded-full'><FaCode className='inline mx-2 text-zinc-500'/> Github Themed</p>
+                <p className='p-2 pr-4 border border-slate-700 rounded-full'><FaBug className='inline mx-2 text-red-400'/> Give a star in Github</p>
+            </div>
             <div className='flex justify-between items-center px-5 py-2'>
-                <p className='font-bold text-lg'>Home</p>
-                <button type="button" className="rounded bg-zinc-800 px-2 p-1 border border-slate-700">See all</button>
+                <p className='font-bold text-xl'>my projects</p>
+                <button type="button" className="rounded bg-gray-800 px-2 p-1 border border-slate-700 text-sm">See all</button>
             </div>
             <div>
                 {
@@ -52,7 +58,7 @@ export default function Right_first() {
                                         <span className='bg-yellow-300 text-black px-[3px] h-4 rounded flex items-center justify-center mr-2 '><FaLocationArrow className='inline text-[10px] ' /></span>
                                         <p className='font-bold text-white  hover:text-blue-400 hover:underline'>{project.name}/{project.name.toLowerCase()}</p>
                                     </div>
-                                    <p className=''> {project.description}</p>
+                                    <p className='mt-2'> {project.description}</p>
                                     <div className='flex flex-wrap items-center mt-2'>
                                         {
                                             project.technologies.map((tech, index) => (
@@ -69,8 +75,8 @@ export default function Right_first() {
                                 </div>
                                 <div>
                                     <div>
-                                        <a href={project.href} className='bg-zinc-700 px-2 py-1 rounded-lg flex items-center '>
-                                            <LuSquareArrowUpRight className='inline text-zinc-400 mr-2' /> <p>check</p>
+                                        <a href={project.href} className='bg-gray-800 px-2 py-1 rounded-lg flex items-center hover:bg-gray-700 '>
+                                            <FaArrowTrendUp  className='inline text-zinc-400 mr-2' /> <p>check</p>
                                         </a>
                                     </div>
                                 </div>

@@ -16,11 +16,12 @@ export interface skills_d {
 
 export const project_list: projects_d[] = [
     {
-        name: 'Socnet',
-        href: 'https://socnet-frontend-one.vercel.app/',
-        technologies: ['React','Express.js', 'MongoDB',  'Node.js'],
-        description: 'A web application for sharing and all social media details in one single card format.',
-        logo:'./socnet.png'
+        name: 'Gyan card',
+        href: 'https://gyan-card.vercel.app/',
+        technologies: ['Nextjs', 'TypeScript', 'Prisma', 'TailwindCSS', 'cloudinary'],
+        description: 'A web application for sharing and accessing bite-sized knowledge cards on various topics, designed to improve knowledge retention.',
+        logo:'./mould.jpg'
+        
     },
     {
         name: 'Chat app',
@@ -28,7 +29,7 @@ export const project_list: projects_d[] = [
         technologies: ['React','Express.js', 'MongoDB',  'Node.js', 'Socket,io'],
         description: 'A real-time chat application with WebSocket support for instant messaging and MongoDB for storing messages and user data.',
         logo:'./shivaji20.jpeg'
-
+        
     },
     {
         name: 'XBlog app',
@@ -36,15 +37,22 @@ export const project_list: projects_d[] = [
         technologies: ['React', 'TypeScript', 'Prisma','Postgresql', 'Hono', 'Cloudflare','TailwindCSS'],
         description: 'A blogging platform inspired by Medium, where users can create, edit, and publish blogs using a seamless user interface.',
         logo:'./blogman_mini.jpeg'
-
+        
     },
     {
-        name: 'Gyan card',
-        href: 'https://gyan-card.vercel.app/',
-        technologies: ['Nextjs', 'TypeScript', 'Prisma', 'TailwindCSS', 'cloudinary'],
-        description: 'A web application for sharing and accessing bite-sized knowledge cards on various topics, designed to improve knowledge retention.',
-        logo:'./mould.jpg'
-
+        name: 'GH Portfolio',
+        href: 'https://gyan-card.vercel.app/',// need to change after deployment
+        technologies: ['Nextjs', 'TypeScript', 'TailwindCSS', 'react'],
+        description: 'A personal Portfio website made with the Github dashboad theme, it will show case my project and skills .',
+        logo:'./copilot.png'
+        
+    },
+    {
+        name: 'Socnet',
+        href: 'https://socnet-frontend-one.vercel.app/',
+        technologies: ['React','Express.js', 'MongoDB',  'Node.js'],
+        description: 'A web application for sharing and all social media details in one single card format.',
+        logo:'./socnet.png'
     },
     {
         name: 'Portfolio website',
