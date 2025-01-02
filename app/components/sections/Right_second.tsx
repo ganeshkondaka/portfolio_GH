@@ -8,15 +8,38 @@ import { TbBrandGithubCopilot } from 'react-icons/tb'
 export default function Right_second() {
   return (
     <div className='max-w-screen-lg mx-auto w-auto flex flex-col '>
-      <div className='relative h-52 w-auto flex flex-col justify-center items-center border border-slate-600 rounded '>
-        <Image src="/headbg.png" alt="bg" width={380} height={203} className='absolute' />
-        <Image src="/head.png" alt="bg" width={300} height={300} className='absolute ' />
-        <div className='absolute top-0 left-0 p-4 w-full '>
-          <div className='text-xl font-bold flex items-center '><TbBrandGithubCopilot className='mr-1' /><p>Ganesh</p></div>
-          <p className='font-bold mt-2'>My Portfolio website</p>
-          <p className='text-zinc-300 w-2/4 text-[11px] mb-4'>I am a web developer skilled in MERN stack, currently seeking opportunities to contribute to innovative projects. </p>
-          <div className='flex justify-center'>
-            <Link href="/logo.jpg" className='text-black rounded-lg bg-white  text-md w-full mx-1 py-1 text-center'>Connect</Link></div>
+      <div className='relative h-[250px] w-full overflow-hidden border border-slate-600 rounded'>
+        <Image 
+          src="/headbg.png" 
+          alt="bg" 
+          width={1000} 
+          height={400} 
+          className='absolute inset-0 w-full h-full object-cover'
+        />
+        <Image 
+          src="/head.png" 
+          alt="bg" 
+          width={800} 
+          height={800} 
+          className='absolute inset-0 w-full h-full object-contain '
+        />
+        <div className='relative z-10 p-4 w-full h-full flex flex-col'>
+          <div className='text-lg sm:text-xl font-bold flex items-center'>
+            <TbBrandGithubCopilot className='mr-1' />
+            <p>Ganesh</p>
+          </div>
+          <p className='font-bold mt-2 text-sm sm:text-base'>My Portfolio website</p>
+          <p className='text-zinc-300 w-full sm:w-2/3 md:w-2/4 text-[11px] sm:text-sm mb-4'>
+            I am a web developer skilled in MERN stack, currently seeking opportunities to contribute to innovative projects.
+          </p>
+          <div className='mt-auto w-full px-4 sm:px-8 md:px-16'>
+            <Link 
+              href="/logo.jpg" 
+              className='block text-black rounded-lg bg-white text-sm sm:text-md w-full py-1.5 text-center hover:bg-gray-100 transition-colors'
+            >
+              Connect
+            </Link>
+          </div>
         </div>
       </div>
 

@@ -6,7 +6,7 @@ import { FaArrowTrendUp } from 'react-icons/fa6';
 import { MdStars } from 'react-icons/md';
 import { RiStarLine } from 'react-icons/ri';
 
-const languageColors : { [key: string]: string } = {
+const languageColors: { [key: string]: string } = {
     "typescript": "#4d88ff",
     "javascript": "#fad74d",
     "tailwindcss": "#b24dfa",
@@ -29,11 +29,18 @@ export default function Right_first() {
 
         <div className='flex flex-col'>
             <p className='border border-slate-700 p-2 rounded-lg px-5 text-zinc-400 bg-[#0D1117] '>Projects</p>
-            <div className='flex flex-row py-2 pt-4 justify-around '>
-                <p className='p-2 pr-4 border border-slate-700 rounded-full'><FaCode className='inline mx-2 text-zinc-500'/> A Portfolio website</p>
-                <p className='p-2 pr-4 border border-slate-700 rounded-full'><FaCode className='inline mx-2 text-zinc-500'/> Github Themed</p>
-                <p className='p-2 pr-4 border border-slate-700 rounded-full'><FaBug className='inline mx-2 text-red-400'/> Give a star in Github</p>
+            <div className=' flex-row py-2 pt-4 justify-around flex-wrap gap-2 hidden sm:flex'>
+                <p className='  p-2 pr-4 border border-slate-700 rounded-full  sm:text-base lg:text-md flex items-center'>
+                    <FaCode className='inline mx-2 text-zinc-500' /> A Portfolio website
+                </p>
+                <p className=' p-2 pr-4 border border-slate-700 rounded-full sm:text-base lg:text-md flex items-center'>
+                    <FaCode className='inline mx-2 text-zinc-500' /> Github Themed
+                </p>
+                <p className=' p-2 pr-4 border border-slate-700 rounded-full sm:text-base lg:text-md flex items-center'>
+                    <FaBug className='inline mx-2 text-red-400' /> Give a star in Github
+                </p>
             </div>
+
             <div className='flex justify-between items-center px-5 py-2'>
                 <p className='font-bold text-xl'>my projects</p>
                 <button type="button" className="rounded bg-gray-800 px-2 p-1 border border-slate-700 text-sm">See all</button>
@@ -55,9 +62,14 @@ export default function Right_first() {
                             <div className='text-sm flex justify-between mt-2 bg-[#151B23] p-6 rounded-lg'>
 
                                 <div className='flex flex-col'>
-                                    <div className='flex'>
+                                    <div className='flex items-center'>
                                         <span className='bg-yellow-300 text-black px-[3px] h-4 rounded flex items-center justify-center mr-2 '><FaLocationArrow className='inline text-[10px] ' /></span>
                                         <p className='font-bold text-white  hover:text-blue-400 hover:underline'>{project.name}/{project.name.toLowerCase()}</p>
+                                        <div className='md:hidden ml-6'>
+                                            <a href={project.href} className='bg-gray-800 px-2 py-1 rounded-lg flex items-center hover:bg-gray-700 '>
+                                                <FaArrowTrendUp className='inline text-zinc-400 mr-2' /> <p>check</p>
+                                            </a>
+                                        </div>
                                     </div>
                                     <p className='mt-2'> {project.description}</p>
                                     <div className='flex flex-wrap items-center mt-2'>
@@ -70,18 +82,18 @@ export default function Right_first() {
                                             ))
                                         }
                                         <div className='flex items-center text-zinc-500 '>
-                                        <RiStarLine className='mr-1 ml-6 text-zinc-400 font-bold text-lg'/><p>{Math.floor(Math.random() * 69) + 10}k</p>
+                                            <RiStarLine className='mr-1 ml-6 text-zinc-400 font-bold text-lg' /><p>{Math.floor(Math.random() * 69) + 10}k</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div>
-                                    <div>
+                                    <div className='hidden sm:flex'>
                                         <a href={project.href} className='bg-gray-800 px-2 py-1 rounded-lg flex items-center hover:bg-gray-700 '>
-                                            <FaArrowTrendUp  className='inline text-zinc-400 mr-2' /> <p>check</p>
+                                            <FaArrowTrendUp className='inline text-zinc-400 mr-2' /> <p>check</p>
                                         </a>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
                     ))
