@@ -55,6 +55,14 @@ export const project_list: projects_d[] = [
         logo:'/socnet.png'
     },
     {
+        name: 'Github Themed Portfolio',
+        href: 'https://gttheme.vercel.app/',
+        technologies: ['Nextjs', 'TypeScript', 'React', 'TailwindCSS'],
+        description: 'A personal portfolio website showcasing skills, projects, and contact information with a professional and responsive design.',
+        logo:'/gtlogo.png'
+
+    },
+    {
         name: 'Portfolio website',
         href: 'https://tsportfolio-repo.vercel.app/',
         technologies: ['Nextjs', 'TypeScript', 'Aeternity UI', 'React', 'TailwindCSS'],
@@ -70,14 +78,14 @@ export const project_list: projects_d[] = [
         logo:'/traffic.png'
 
     },
-    {
-        name: 'Spam mail prediction system',
-        href: 'https://spammailpredictionwebapp-lck76iojgroa7aq4xwimnispamprediction.streamlit.app/',
-        technologies: ['Streamlit', 'Python', 'Scikit-learn', 'NLP','Tensorflow'],
-        description: 'A machine learning web app that predicts whether an email is spam or not using natural language processing and Scikit-learn models.',
-        logo:'/logo.jpg'
+    // {
+    //     name: 'Spam mail prediction system',
+    //     href: 'https://spammailpredictionwebapp-lck76iojgroa7aq4xwimnispamprediction.streamlit.app/',
+    //     technologies: ['Streamlit', 'Python', 'Scikit-learn', 'NLP','Tensorflow'],
+    //     description: 'A machine learning web app that predicts whether an email is spam or not using natural language processing and Scikit-learn models.',
+    //     logo:'/logo.jpg'
 
-    }
+    // }
 ];
 
 export const skills_list:skills_d[]=[

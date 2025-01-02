@@ -13,7 +13,7 @@ const languageColors: { [key: string]: string } = {
     "react": "#3bc4ff",
     "mongodb": "#6bbf6f",
     "express.js": "#c4316c",
-    "nextjs": "cyan",
+    "nextjs": "#eb7d3d",
     "python": "#fad74d",
     "prisma": "#fad74d",
     "node.js": "#04800a",
