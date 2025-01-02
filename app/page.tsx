@@ -24,7 +24,8 @@ export default function Home() {
         </div>
 
         {/* Right Column (Hidden on small screens) */}
-        <div className="lg:w-2/6 lg:p-2 lg:sticky hidden lg:block">
+        <div className="lg:w-2/6 lg:px-2 lg:sticky hidden lg:block">
+        {/* <div className="lg:w-2/6 lg:p-2 lg:sticky hidden lg:block"> */}
           <Right_second />
         </div>
       </div>

@@ -41,7 +41,7 @@ export const project_list: projects_d[] = [
     },
     {
         name: 'GH Portfolio',
-        href: 'https://gyan-card.vercel.app/',// need to change after deployment
+        href: 'https://gttheme.vercel.app/',
         technologies: ['Nextjs', 'TypeScript', 'TailwindCSS', 'react'],
         description: 'A personal Portfio website made with the Github dashboad theme, it will show case my project and skills .',
         logo:'/copilot.png'
@@ -54,14 +54,14 @@ export const project_list: projects_d[] = [
         description: 'A web application for sharing and all social media details in one single card format.',
         logo:'/socnet.png'
     },
-    {
-        name: 'Github Themed Portfolio',
-        href: 'https://gttheme.vercel.app/',
-        technologies: ['Nextjs', 'TypeScript', 'React', 'TailwindCSS'],
-        description: 'A personal portfolio website showcasing skills, projects, and contact information with a professional and responsive design.',
-        logo:'/gtlogo.png'
+    // {
+    //     name: 'Github Themed Portfolio',
+    //     href: 'https://gttheme.vercel.app/',
+    //     technologies: ['Nextjs', 'TypeScript', 'React', 'TailwindCSS'],
+    //     description: 'A personal portfolio website showcasing skills, projects, and contact information with a professional and responsive design.',
+    //     logo:'/gtlogo.png'
 
-    },
+    // },
     {
         name: 'Portfolio website',
         href: 'https://tsportfolio-repo.vercel.app/',
