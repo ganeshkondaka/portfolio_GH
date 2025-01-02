@@ -30,25 +30,25 @@ export default function Right_first() {
         <div className='flex flex-col'>
             <p className='border border-slate-700 p-2 rounded-lg px-5 text-zinc-400 bg-[#0D1117] '>Projects</p>
             <div className=' flex-row py-2 pt-4 justify-around flex-wrap gap-2 hidden sm:flex'>
-                <p className='  p-2 pr-4 border border-slate-700 rounded-full  sm:text-base lg:text-md flex items-center'>
+                <p className='  p-2 pr-4 border border-slate-700 rounded-full  sm:text-base lg:text-[14px] flex items-center'>
                     <FaCode className='inline mx-2 text-zinc-500' /> A Portfolio website
                 </p>
-                <p className=' p-2 pr-4 border border-slate-700 rounded-full sm:text-base lg:text-md flex items-center'>
+                <p className=' p-2 pr-4 border border-slate-700 rounded-full sm:text-base lg:text-[14px] flex items-center'>
                     <FaCode className='inline mx-2 text-zinc-500' /> Github Themed
                 </p>
-                <p className=' p-2 pr-4 border border-slate-700 rounded-full sm:text-base lg:text-md flex items-center'>
+                <p className=' p-2 pr-4 border border-slate-700 rounded-full sm:text-base lg:text-[14px] flex items-center'>
                     <FaBug className='inline mx-2 text-red-400' /> Give a star in Github
                 </p>
             </div>
 
             <div className='flex justify-between items-center px-5 py-2'>
                 <p className='font-bold text-xl'>my projects</p>
-                <button type="button" className="rounded bg-gray-800 px-2 p-1 border border-slate-700 text-sm">See all</button>
+                <button type="button" className="rounded-lg bg-gray-800 px-2 p-1 border border-slate-700 text-sm">See all</button>
             </div>
             <div>
                 {
                     project_list.map((project, index) => (
-                        <div key={index} className='flex flex-col mb-6 bg-[#0D1117] p-4 rounded border border-slate-600 '>
+                        <div key={index} className='flex flex-col mb-6 bg-[#0D1117] p-4 rounded-lg border border-zinc-700 '>
                             <div className='flex'>
                                 <div className='relative rounded-full flex mr-2 '>
                                     <Image src={project.logo} width={45} height={45} alt="favicon" className='rounded-full ' />

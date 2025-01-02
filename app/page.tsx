@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="flex flex-col lg:flex-row min-h-screen w-screen bg-black">
       {/* Left Column */}
-      <div className="text-white flex flex-col w-full lg:w-[450px] border-r border-zinc-700 lg:h-screen lg:sticky lg:top-0 px-6 py-12 bg-[#0D1117] order-2 lg:order-none">
+      <div className="text-white flex flex-col w-full lg:w-[430px] border-r border-zinc-700 lg:h-screen lg:sticky lg:top-0 px-6 py-12 bg-[#0D1117] order-2 lg:order-none">
         <div className="mb-8">
           <Left_top />
         </div>
