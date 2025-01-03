@@ -44,18 +44,6 @@ export default function Right_second() {
       </div>
 
       <div className='mt-10  p-4 border border-slate-600 rounded-lg bg-[#0D1117]'>
-        <p className='text-lg font-bold'>Experience</p>
-        <p className='p-2'>Smartbridge</p>
-        <div className='flex items-center px-2 gap-3'>
-          <FaSuitcase className='text-md text-zinc-500' />
-          <div className='flex flex-col text-zinc-400'>
-            <p >Ai ml intern</p>
-            <p className='text-[11px]'>2023-2024</p>
-          </div>
-        </div>
-      </div>
-
-      <div className='mt-10  p-4 border border-slate-600 rounded-lg bg-[#0D1117]'>
         <p className='text-lg font-bold'>Accolade</p>
         <p className='p-2 text-md'><FaGithub className='inline'/> Contributed to Spectrum-UI </p>
         <div className='flex items-center px-4 gap-3 mt-2'>
@@ -68,6 +56,18 @@ export default function Right_second() {
           <FaRegCheckCircle  className='text-purple-800 text-xl ' />
           <div className='flex flex-col text-zinc-400 text-sm hover:underline'>
             <Link href="https://github.com/arihantcodes/spectrum-ui/issues/38#event-15721056448">solved the cards overlapping</Link>
+          </div>
+        </div>
+      </div>
+
+      <div className='mt-10  p-4 border border-slate-600 rounded-lg bg-[#0D1117]'>
+        <p className='text-lg font-bold'>Experience</p>
+        <p className='p-2'>Smartbridge</p>
+        <div className='flex items-center px-2 gap-3'>
+          <FaSuitcase className='text-md text-zinc-500' />
+          <div className='flex flex-col text-zinc-400'>
+            <p >Ai ml intern</p>
+            <p className='text-[11px]'>2023-2024</p>
           </div>
         </div>
       </div>
