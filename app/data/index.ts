@@ -19,7 +19,7 @@ export const project_list: projects_d[] = [
         name: 'Gyan card',
         href: 'https://gyan-card.vercel.app/',
         technologies: ['Nextjs', 'TypeScript', 'Prisma', 'TailwindCSS', 'cloudinary'],
-        description: 'A web application for sharing and accessing bite-sized knowledge cards on various topics, designed to improve knowledge retention.',
+        description: 'A web application that builds personal portfolio website for people , in a simple and sleek card format, and one can share it with others.',
         logo:'/mould.jpg'
         
     },
@@ -40,10 +40,10 @@ export const project_list: projects_d[] = [
         
     },
     {
-        name: 'GH Portfolio',
+        name: 'Github..?Portfolio',
         href: 'https://gttheme.vercel.app/',
         technologies: ['Nextjs', 'TypeScript', 'TailwindCSS', 'react'],
-        description: 'A personal Portfio website made with the Github dashboad theme, it will show case my project and skills .',
+        description: 'A personal Portfio website that look like Github dashboad , it will show case my project and skills .',
         logo:'/copilot.png'
         
     },

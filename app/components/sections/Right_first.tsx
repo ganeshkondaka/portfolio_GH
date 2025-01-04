@@ -1,8 +1,9 @@
 import { project_list } from '@/app/data'
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react'
-import { FaBug, FaCode, FaLocationArrow } from 'react-icons/fa'
-import { FaArrowTrendUp } from 'react-icons/fa6';
+import { FaBug, FaCode, FaGithub, FaLocationArrow, FaRegCheckCircle } from 'react-icons/fa'
+import { FaArrowTrendUp, FaCodeMerge } from 'react-icons/fa6';
 import { MdStars } from 'react-icons/md';
 import { RiStarLine } from 'react-icons/ri';
 
@@ -98,6 +99,23 @@ export default function Right_first() {
                         </div>
                     ))
                 }
+            </div>
+
+            <div className='flex flex-col lg:hidden mt-2 mb-2 p-4 border border-slate-600 rounded-lg bg-[#0D1117]'>
+                <p className='text-xl font-bold'>Accolade :</p>
+                <p className='p-2 text-md'><FaGithub className='inline' /> contributed to Spectrum-UI </p>
+                <div className='flex items-center px-4 gap-3 mt-2'>
+                    <FaCodeMerge className='text-green-700 text-xl ' />
+                    <div className='flex flex-col text-zinc-400 text-sm hover:underline'>
+                        <Link href="https://github.com/arihantcodes/spectrum-ui/pull/54">added a custom cursor component</Link>
+                    </div>
+                </div>
+                <div className='flex items-center px-4 gap-3 mt-4'>
+                    <FaRegCheckCircle className='text-purple-800 text-xl ' />
+                    <div className='flex flex-col text-zinc-400 text-sm hover:underline'>
+                        <Link href="https://github.com/arihantcodes/spectrum-ui/issues/38#event-15721056448">solved the cards overlapping</Link>
+                    </div>
+                </div>
             </div>
         </div>
 
