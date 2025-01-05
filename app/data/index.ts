@@ -24,14 +24,6 @@ export const project_list: projects_d[] = [
         
     },
     {
-        name: 'Chat app',
-        href: 'https://mern-chatapp-frontend-psi.vercel.app/',
-        technologies: ['React','Express.js', 'MongoDB',  'Node.js', 'Socket,io'],
-        description: 'A real-time chat application with WebSocket support for instant messaging and MongoDB for storing messages and user data.',
-        logo:'/shivaji20.jpeg'
-        
-    },
-    {
         name: 'XBlog app',
         href: 'https://xblog-amber.vercel.app/',
         technologies: ['React', 'TypeScript', 'Prisma','Postgresql', 'Hono', 'Cloudflare','TailwindCSS'],
@@ -45,6 +37,14 @@ export const project_list: projects_d[] = [
         technologies: ['Nextjs', 'TypeScript', 'TailwindCSS', 'react'],
         description: 'A personal Portfio website that look like Github dashboad , it will show case my project and skills .',
         logo:'/copilot.png'
+        
+    },
+    {
+        name: 'Chat app',
+        href: 'https://mern-chatapp-frontend-psi.vercel.app/',
+        technologies: ['React','Express.js', 'MongoDB',  'Node.js', 'Socket,io'],
+        description: 'A real-time chat application with WebSocket support for instant messaging and MongoDB for storing messages and user data.',
+        logo:'/shivaji20.jpeg'
         
     },
     {
