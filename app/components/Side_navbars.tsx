@@ -42,7 +42,7 @@ export default function Side_navbars() {
                     <div className='border border-zinc-700 inline-flex items-center p-1 text-[12px] text-gray-400 mx-2 rounded-lg'><GoGitPullRequest className='text-lg' /></div>
                     <div className='border border-zinc-700 inline-flex items-center p-1 text-[12px] text-gray-400 mx-2 rounded-lg'><VscInbox className='text-lg' /></div>
                 </div>
-                <Image src="/pxldp4.jpeg" alt="Navbar Image" width={40} height={40} className="h-8 w-8 rounded-full" />
+                <Image src="/football.png" alt="Navbar Image" width={40} height={40} className="h-8 w-8 rounded-full" />
             </div>
         </div>
     );
