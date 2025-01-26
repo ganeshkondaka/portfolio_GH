@@ -44,10 +44,10 @@ export default function Right_second() {
       </div>
 
       <div className='mt-10  p-4 border border-slate-600 rounded-lg bg-[#0D1117]'>
-        <p className='text-lg font-bold'>Accolade</p>
+        <p className='text-lg font-bold'>Contribution</p>
         <p className='p-2 text-md'><FaGithub className='inline'/> Contributed to Spectrum-UI </p>
         <div className='flex items-center px-4 gap-3 mt-2'>
-          <FaCodeMerge className='text-purple-800 text-xl ' />
+          <FaCodeMerge className='text-green-800 text-xl ' />
           <div className='flex flex-col text-zinc-400 text-sm hover:underline'>
             <Link href="https://github.com/arihantcodes/spectrum-ui/pull/54">added a custom cursor component</Link>
           </div>

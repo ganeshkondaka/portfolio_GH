@@ -102,7 +102,7 @@ export default function Right_first() {
             </div>
 
             <div className='flex flex-col lg:hidden mt-2 mb-2 p-4 border border-slate-600 rounded-lg bg-[#0D1117]'>
-                <p className='text-xl font-bold'>Accolade :</p>
+                <p className='text-xl font-bold'>Contribution :</p>
                 <p className='p-2 text-md'><FaGithub className='inline' /> contributed to Spectrum-UI </p>
                 <div className='flex items-center px-4 gap-3 mt-2'>
                     <FaCodeMerge className='text-green-700 text-xl ' />

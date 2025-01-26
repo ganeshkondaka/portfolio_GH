@@ -1,4 +1,5 @@
 import { socials_list } from '@/app/data'
+import Link from 'next/link';
 import React from 'react'
 import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaPhone, FaTelegram } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6';
@@ -31,7 +32,7 @@ export default function Left_top() {
     <div className='flex flex-col text-sm'>
         <div className='flex justify-between mb-2'>
             <p className='font-bold ' >All Socials</p>
-            <button className='bg-green-600 p-1 rounded font-bold'> <GiPsychicWaves className='inline' /> Connect</button>
+            <Link href={'https://x.com/ganesh_kondaka'} className='bg-green-600 p-1 rounded font-bold'> <GiPsychicWaves className='inline' /> Connect</Link>
         </div>
         <div className='border border-zinc-600 p-2 bg-[#151B23] rounded-md text-zinc-500 mb-4'>
             <p>My social-media accounts ...</p>

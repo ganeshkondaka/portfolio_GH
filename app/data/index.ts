@@ -16,6 +16,14 @@ export interface skills_d {
 
 export const project_list: projects_d[] = [
     {
+        name: 'AI Content Generator',
+        href: 'https://barbasol.vercel.app/',
+        technologies: ['Nextjs', 'TypeScript', 'Prisma', 'TailwindCSS', 'Clerk' ,'Gemini'],
+        description: 'A web application that Generates content for your website or blog or for personal use using AI, and it can be customized to suit your needs.',
+        logo:'/aig.jpeg'
+        
+    },
+    {
         name: 'Gyan card',
         href: 'https://gyan-card.vercel.app/',
         technologies: ['Nextjs', 'TypeScript', 'Prisma', 'TailwindCSS', 'cloudinary'],
