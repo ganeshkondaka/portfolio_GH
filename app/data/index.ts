@@ -40,19 +40,27 @@ export const project_list: projects_d[] = [
         
     },
     {
-        name: 'Github..?Portfolio',
-        href: 'https://gttheme.vercel.app/',
-        technologies: ['Nextjs', 'TypeScript', 'TailwindCSS', 'react'],
-        description: 'A personal Portfio website that look like Github dashboad , it will show case my project and skills .',
-        logo:'/copilot.png'
-        
-    },
-    {
         name: 'Chat app',
         href: 'https://mern-chatapp-frontend-psi.vercel.app/',
         technologies: ['React','Express.js', 'MongoDB',  'Node.js', 'Socket,io'],
         description: 'A real-time chat application with WebSocket support for instant messaging and MongoDB for storing messages and user data.',
         logo:'/shivaji20.jpeg'
+        
+    },
+    {
+        name: 'Portfolio website',
+        href: 'https://ganeshprofolio.vercel.app/',
+        technologies: ['Nextjs', 'TypeScript', 'React', 'TailwindCSS'],
+        description: 'A personal portfolio website showcasing skills, projects, and contact information with a professional and responsive design.',
+        logo:'/anime.png'
+
+    },
+    {
+        name: 'Github..?Portfolio',
+        href: 'https://gttheme.vercel.app/',
+        technologies: ['Nextjs', 'TypeScript', 'TailwindCSS', 'react'],
+        description: 'A personal Portfio website that look like Github dashboad , it will show case my project and skills .',
+        logo:'/copilot.png'
         
     },
     {
@@ -70,14 +78,6 @@ export const project_list: projects_d[] = [
     //     logo:'/gtlogo.png'
 
     // },
-    {
-        name: 'Portfolio website',
-        href: 'https://tsportfolio-repo.vercel.app/',
-        technologies: ['Nextjs', 'TypeScript', 'Aeternity UI', 'React', 'TailwindCSS'],
-        description: 'A personal portfolio website showcasing skills, projects, and contact information with a professional and responsive design.',
-        logo:'/pxldp4.jpeg'
-
-    },
     {
         name: 'Traffic sign board',
         href: 'https://2bxyuirgwqswmwppdwwgmxtrafficwebapp.streamlit.app/',
