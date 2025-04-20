@@ -72,7 +72,7 @@ export default function Right_first() {
                                             </a>
                                         </div>
                                     </div>
-                                    <p className='mt-2'> {project.description}</p>
+                                    <p className='mt-2 text-zinc-300'> {project.description}</p>
                                     <div className='flex flex-wrap items-center mt-2'>
                                         {
                                             project.technologies.map((tech, index) => (
