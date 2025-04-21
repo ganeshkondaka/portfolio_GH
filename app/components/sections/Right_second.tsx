@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { FaGithub, FaRegCheckCircle, FaSuitcase } from 'react-icons/fa'
+import { FaGithub, FaHandshake, FaRegCheckCircle, FaSuitcase } from 'react-icons/fa'
 import { FaCodeMerge } from 'react-icons/fa6'
 import { TbBrandGithubCopilot } from 'react-icons/tb'
 
@@ -9,18 +9,18 @@ export default function Right_second() {
   return (
     <div className='max-w-screen-lg mx-auto w-auto flex flex-col '>
       <div className=' relative h-[220px] w-auto overflow-hidden border border-slate-600 rounded-lg'>
-        <Image 
-          src="/headbg.png" 
-          alt="bg" 
-          width={800} 
-          height={400} 
+        <Image
+          src="/headbg.png"
+          alt="bg"
+          width={800}
+          height={400}
           className='absolute inset-0 w-auto h-full object-cover'
         />
-        <Image 
-          src="/head.png" 
-          alt="bg" 
-          width={800} 
-          height={800} 
+        <Image
+          src="/head.png"
+          alt="bg"
+          width={800}
+          height={800}
           className='absolute inset-0 w-full h-full object-contain '
         />
         <div className='relative z-10 p-4 w-full h-full flex flex-col'>
@@ -33,8 +33,8 @@ export default function Right_second() {
             I am a web developer skilled in MERN stack, currently seeking opportunities to contribute to innovative projects.
           </p>
           <div className='mt-auto w-full px-4 sm:px-8 md:px-16'>
-            <Link 
-              href="/logo.jpg" 
+            <Link
+              href="/logo.jpg"
               className='block text-black rounded-lg bg-white text-sm sm:text-md w-full py-1.5 text-center hover:bg-gray-100 transition-colors'
             >
               Connect
@@ -45,7 +45,7 @@ export default function Right_second() {
 
       <div className='mt-10  p-4 border border-slate-600 rounded-lg bg-[#0D1117]'>
         <p className='text-lg font-bold'>Contribution</p>
-        <p className='p-2 text-md'><FaGithub className='inline'/> Contributed to Spectrum-UI </p>
+        <p className='p-2 text-md'><FaGithub className='inline' /> Contributed to Spectrum-UI </p>
         <div className='flex items-center px-4 gap-3 mt-2'>
           <FaCodeMerge className='text-green-800 text-xl ' />
           <div className='flex flex-col text-zinc-400 text-sm hover:underline'>
@@ -53,7 +53,7 @@ export default function Right_second() {
           </div>
         </div>
         <div className='flex items-center px-4 gap-3 mt-4'>
-          <FaRegCheckCircle  className='text-purple-800 text-xl ' />
+          <FaRegCheckCircle className='text-purple-800 text-xl ' />
           <div className='flex flex-col text-zinc-400 text-sm hover:underline'>
             <Link href="https://github.com/arihantcodes/spectrum-ui/issues/38#event-15721056448">solved the cards overlapping</Link>
           </div>
@@ -68,6 +68,14 @@ export default function Right_second() {
           <div className='flex flex-col text-zinc-400'>
             <p >Ai ml intern</p>
             <p className='text-[11px]'>2023-2024</p>
+          </div>
+        </div>
+        <p className='p-2'>Freelance</p>
+        <div className='flex items-center px-2 gap-3'>
+          <FaHandshake className='text-md text-zinc-500' />
+          <div className='flex flex-col text-zinc-400'>
+            <p >Full stack developer</p>
+            <p className='text-[11px]'>Present</p>
           </div>
         </div>
       </div>
